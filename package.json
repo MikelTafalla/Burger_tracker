@@ -1,5 +1,5 @@
 {
-  "name": "Burger_tracker",
+  "name": "burger_tracker",
   "version": "1.0.0",
   "description": "### Overview",
   "main": "server.js",
@@ -11,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/MikelTafalla/Burguer_tracker.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
