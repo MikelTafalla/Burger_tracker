@@ -3,13 +3,27 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
 }
 .title {
-    text-align: center;
-    font-size: 4em;
+    padding-top: 10%;
+    font-size: 3em;
+    margin-left: 5%;
 }
 .addBurger {
-    text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-left: 5%;
+}
+.button {
+    margin-left: 2%;
+}
+.row2 {
+    border-top: solid;
+    padding-top: 5%;
+}
+.footer {
+   position: fixed;
+   bottom: 0; 
 }
