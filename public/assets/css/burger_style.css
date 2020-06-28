@@ -27,3 +27,21 @@
    position: fixed;
    bottom: 0; 
 }
+.burgNames {
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+ul {
+    list-style-type: none;
+}
+.change-devoured {
+    background-color: chartreuse;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 15%;
+}
+
+.burgerDevoured {
+    font-size: 1.2em;
+    color: red;
+}
