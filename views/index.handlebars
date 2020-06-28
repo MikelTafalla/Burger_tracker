@@ -5,14 +5,14 @@
         <h1 class="title">Eat Da' Burger</h1>
         <form class="create-form addBurger">
           <div class="form-group">
-            <input type="text" id="ca" name="name" placeholder="Enter Burger Name"><button class="button"
+            <input type="text" id="bu" name="name" placeholder="Enter Burger Name"><button class="button"
               type="submit">Add the Burger!</button>
           </div>
         </form>
       </div>
 
       <div class="col-sm-6">
-        <img src="public/assets/img/burger.png" alt="burger image" id="burgerPNG">
+        <img src="/assets/img/burger.png" alt="burger image" id="burgerPNG">
       </div>
     </div>
     <div class="row row2">
@@ -20,8 +20,9 @@
         <h3>Burgers Ready</h3>
         <ul>
           {{#each burgers}}
-          {{#unless devoured}}
-          {{/unless}}
+          <li>
+            {{this.burger_name}}
+          </li>
           {{/each}}
         </ul>
       </div>
@@ -30,6 +31,7 @@
         <ul>
           {{#each burgers}}
           {{#if devoured}}
+          <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
           {{/if}}
           {{/each}}
         </ul>
