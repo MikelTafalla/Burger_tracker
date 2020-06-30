@@ -1,6 +1,7 @@
 // Import MySQL connection.
 const connection = require("../config/connection.js");
 
+//Function to create dynamically as many ? as we need depending on the values we want to insert at create.
 function printQuestionMarks(num) {
     let arr = [];
     for (let i = 0; i < num; i++) {
