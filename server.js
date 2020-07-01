@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 8080;
+require("dotenv").config();
 
 // Set Handlebars.
 const exphbs = require("express-handlebars");
